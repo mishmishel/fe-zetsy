@@ -1,8 +1,38 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+ header a { 
+	color: rgb(152,173,166);
+    text-decoration: none;
+ } /* Zetsy title */
 
+h1 {
+	font-size: 5em;
+    font-family: 'Baskerville', serif;
+	margin: 0 0 5px;
+	padding-bottom: 10px;
+} /* Header */
 /*////////// Global Styles //////////*/
+
+.small {
+	font-size: 0.8em;
+} /* Footer */
+
+h2 {
+	color: rgb(111,127,122);
+    font-size: 2em;
+} /* All h2 Headers */
+
+p {
+    color: #555;
+    font-size: 1em;
+    margin: 0 0 20px 0;
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+} /* Paragraph editing + margins */
 
 body {
 	background: #F3EBE9;
@@ -10,11 +40,35 @@ body {
 	font-family: 'Times New Roman', serif; 
 }
 
+#featured a {
+	color: #1783bb;
+    text-decoration: none;
+} /* Link in featured id */
+
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
 }
+#press img:hover {
+	border: 5px  #555 solid;
+} /*Trying to figure out how to make border light up when hovering  */
 
-/* Write all remaining styles here */
+#press img {
+	border: 5px #ccc solid;
+    padding: 1px;
+} /* Images within the id 'press' */
+
+#featured img {
+	border: 5px rgb(152,173,166) solid;
+} /* Border for image within the id 'featured' */
+
+#learn:hover {
+	text-decoration: underline;
+} /* Underline when hovering over links (text) */
+
+footer {
+	text-align: right;
+} /* Align footer to the right */
+
